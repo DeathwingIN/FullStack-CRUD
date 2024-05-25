@@ -1,27 +1,34 @@
-# SpringbootFrontend
+# Employee Management Application
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.5.
+## Overview
 
-## Development server
+This is a simple Employee Management Application built using Angular for the front end and Spring Boot for the back end. The application provides basic CRUD (Create, Read, Update, Delete) functionalities to manage employee records, leveraging RESTful APIs for communication between the client and server. The user interface is designed using Bootstrap for a clean and modern look.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Features
 
-## Code scaffolding
+- **Add Employee**: Create new employee records by entering first name, last name, and email.
+- **View Employee Details**: View detailed information of a specific employee.
+- **Update Employee**: Edit and update existing employee details.
+- **Delete Employee**: Remove an employee record from the system.
+- **List Employees**: Display a list of all employees with options to view, update, or delete each record.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Technologies Used
 
-## Build
+### Frontend
+- **Angular**: Framework for building the user interface.
+- **Bootstrap**: CSS framework for responsive and modern UI design.
+- **TypeScript**: Superset of JavaScript used with Angular.
+- **HTML & CSS**: Markup and styling for the application.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Backend
+- **Spring Boot**: Framework for building the backend RESTful web services.
+- **Spring Data JPA**: Simplifies database operations.
+- **MySQL**: Relational database for storing employee data.
+- **Maven**: Build automation tool for managing project dependencies and build lifecycle.
 
-## Running unit tests
+### Communication
+- **REST API**: Used for communication between the frontend and backend.
+- **JSON**: Data format for exchanging information between client and server.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
